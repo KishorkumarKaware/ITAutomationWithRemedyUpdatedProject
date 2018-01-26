@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This config file is the base config file for Arsystem Java API configuration. -->
+<configuration>
+  <!-- you can create arsys_api.xml which will override config values in the 
+       default.xml. A sample file is provided, which you can rename to arsys_api.xml and
+       change the config parameters -->
+  <xml fileName="arsys_api.xml" config-name="arsys_api" config-optional="true" throwExceptionOnMissing="false"/>
+  <xml fileName="default.xml" config-name="default"/>
+</configuration>

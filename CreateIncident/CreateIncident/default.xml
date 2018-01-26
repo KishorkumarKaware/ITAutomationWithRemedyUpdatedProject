@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This configuration file contains the default configuration parameter values for the AR System Java API.
+	 Do not modify this file. To modify configuration parameters, see the comment in arsys_sample.xml. -->
+<javaapi_config>
+	<catalogFile>arcatalog</catalogFile>
+	<jrpcMode>true</jrpcMode>
+	<jniLoadMode>1</jniLoadMode>
+	<apiRecording>0</apiRecording>
+	<useConnectionPooling>true</useConnectionPooling>
+	<maxProxiesPerServer>80</maxProxiesPerServer>
+	<idleConnectionsPerServer>5</idleConnectionsPerServer>
+	<connectionTimeout>0</connectionTimeout>
+	<connectionLifespan>0</connectionLifespan>
+	<timeUnit>MINUTES</timeUnit>
+	<clientRpcVersion>23</clientRpcVersion>
+	<rpcClientStubType>com.bmc.arsys.api.session.ARRpcClientStub</rpcClientStubType>
+	<minimumSupportedServerRpcVersion>12</minimumSupportedServerRpcVersion>
+	<connectionMaxRetries>1</connectionMaxRetries>
+	<timeLagBetweenRetriesMillSec>100</timeLagBetweenRetriesMillSec>
+	<toStringStyle>com.bmc.arsys.api.NoPrefixToStringStyle.NO_PREFIX_STYLE</toStringStyle>
+	<stringizeFieldAssignments>false</stringizeFieldAssignments>
+	<stringizeSetIfQualification>false</stringizeSetIfQualification>
+	<useLegacyQualParser>false</useLegacyQualParser>
+	<useLegacyAssignParser>false</useLegacyAssignParser>
+	<useLegacyQualFormatter>false</useLegacyQualFormatter>
+	<useLegacyAssignFormatter>false</useLegacyAssignFormatter>
+</javaapi_config>

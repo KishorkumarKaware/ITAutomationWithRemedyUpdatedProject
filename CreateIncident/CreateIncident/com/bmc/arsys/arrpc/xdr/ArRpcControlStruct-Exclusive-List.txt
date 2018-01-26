@@ -1,0 +1,16 @@
+################################################################################################
+# File name: ArRpcControlStruct-Exclusive-List.txt
+#
+# We follow the arrpc structure naming convention 
+#     ArControlStruct* or ArEsControlStruct* for ArControlStruct types.
+# Version 12 and up will be changed to extends ArRpcControlStruct for arsystem usage.
+# Class list below contains classes with the same naming convention but are not a ArControlStruct type.
+# JRpcgen will exclude those classes to extend BMC's base class ArRpcControlStruct. 
+#
+# The prefix list format is:
+# ArControlStructXYZ
+# ArEsControlStructABC
+#
+# @author Yucheng Huang
+#
+################################################################################################

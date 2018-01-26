@@ -1,0 +1,14 @@
+################################################################################################
+# File name: ArRpcStatusStruct-Exclusive-List.txt
+#
+# We follow the arrpc structure naming convention 
+#     ArRpcStatusStruct* for ArStatusStruct types.
+# Class list below contains classes with the same naming convention but are not ArStatusStruct type.
+# Jrpcgen will exclude those classes to extend BMC's base class ArRpcStatusStruct. 
+#
+# The class name list format is:
+# ArStatusStructXYZ
+#
+# @author Yucheng Huang
+#
+################################################################################################

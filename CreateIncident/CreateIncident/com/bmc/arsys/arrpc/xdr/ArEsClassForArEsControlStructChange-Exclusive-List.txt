@@ -1,0 +1,16 @@
+################################################################################################
+# File name: ArEsClassForArEsControlStructChange-Exclusive-List.txt
+#
+# We follow the arrpc structure naming convention 
+#     ArEsRpcControlStruct for ArEsControlStruct4 types.
+# Class list below contains classes with the same naming convention but are not used for ArEsRpcControlStruct type change.
+# Jrpcgen will exclude those classes to change filed ArEsControlStruct4 to BMC's base class ArEsRpcControlStruct. 
+#
+# The class name list format is:
+# ArEs*
+#
+# @author Yucheng Huang
+#
+################################################################################################
+ArEsSignal9In
+ArEsArdbcGetMultipleFields10Out

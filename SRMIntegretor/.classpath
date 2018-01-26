@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="lib/arapi91_build001.jar"/>
+	<classpathentry kind="lib" path="lib/ardoc91_build001.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="D:/jars for java/poi-3.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.3/jackson-core-2.9.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.3/jackson-databind-2.9.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/.m2/repository/com/sun/jersey/jersey-bundle/1.19.1/jersey-bundle-1.19.1.jar"/>
+	<classpathentry kind="lib" path="D:/jars for java/com.jersey/jersey-bundle-1.19.1.jar"/>
+	<classpathentry kind="lib" path="D:/jars for java/com.jersey/jersey-client-1.19.1.jar"/>
+	<classpathentry kind="lib" path="D:/jars for java/com.jersey/jersey-core-1.19.1.jar"/>
+	<classpathentry kind="lib" path="D:/jars for java/com.jersey/jersey-server.jar"/>
+	<classpathentry kind="lib" path="D:/jars for java/com.jersey/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/.m2/repository/org/json/json/20170516/json-20170516.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,33 @@
+################################################################################################
+# File name: ArRpcXdrOut-Exclusive-List.txt
+#
+# We follow the arrpc structure naming convention 
+#     Ar*Out for arrpc parameter out class types.
+# Class list below contains classes with the same naming convention 
+# but are not used as arrpc parameter-out type.
+# JRpcgen will exclude those classes to extend BMC's base class ArRpcXdrOut. 
+#
+# Some known types are:
+# ArI*Out
+# ArSocket*Out
+#
+# @author Yucheng Huang
+#
+################################################################################################
+
+ArIAddTimedCall12Out
+ArICheckStringForKeyword12Out
+ArIConvertKeyWordToValue12Out
+ArIFlushSQL12Out
+ArILoadARQualifierStruct12Out
+ArIQueueInternalCall12Out
+ArIRemoveTimedCall12Out
+ArIWfCreateEntry12Out
+ArIWfDeleteEntry12Out
+ArIWfGetEntry12Out
+ArIWfGetListEntryWithFields12Out
+ArIWfSetCurrEntry12Out
+ArIWfSetEntry12Out
+ArIWriteTraceLog12Out
+ArSocketOnly2Out
+ArSocketOnlyOut

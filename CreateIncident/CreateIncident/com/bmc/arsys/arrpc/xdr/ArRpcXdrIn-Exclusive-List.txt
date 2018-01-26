@@ -1,0 +1,42 @@
+################################################################################################
+# File name: ArRpcXdrIn-Exclusive-List.txt
+#
+# We follow the arrpc structure naming convention 
+#     Ar*In for arrpc parameter in class types.
+# Class list below contains classes with the same naming convention 
+# but are not used as arrpc parameter-in type.
+# JRpcgen will exclude those classes to extend BMC's base class ArRpcXdrIn. 
+#
+# Some known types are:
+# ArI*In 
+# ArDummy*In
+# ArDeleteUser*In
+# ArDeleteGroup*In 
+# ArCreateUser*In
+# ArCreateGroup*In
+#
+# @author Yucheng Huang
+#
+################################################################################################
+
+ArIAddTimedCall12In
+ArICheckStringForKeyword12In
+ArIConvertKeyWordToValue12In
+ArILoadARQualifierStruct12In
+ArIQueueInternalCall12In
+ArIRemoveTimedCall12In
+ArIWfCreateEntry12In
+ArIWfDeleteEntry12In
+ArIWfGetEntry12In
+ArIWfGetListEntryWithFields12In
+ArIWfSetCurrEntry12In
+ArIWfSetCurrEntry13In
+ArIWfSetEntry12In
+ArIWfSetEntry13In
+ArIWriteTraceLog12In
+ArDummyIn
+ArDeleteUser12In
+ArDeleteUser2In
+ArCreateGroup12In
+ArCreateGroup2In
+
